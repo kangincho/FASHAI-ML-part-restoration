@@ -8,10 +8,10 @@ pip install onnxruntime
 pip install onnxruntime-gpu
 ```
 
-2) insightface의 모델은 직접 코드를 받을 필요는 없고 라이브러리와 모델 가중치 파일만 갖고 있다면 실행이 가능하다.
+2) insightface 라이브러리 설치
 
 ```
-# insightface 라이브러리 다운로드
+# insightface 라이브러리 설치하기
 pip install insightface
 ```
 
