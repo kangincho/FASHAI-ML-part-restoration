@@ -1,5 +1,5 @@
 import os
-os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE" # 에러 해결하면서 추가함
 
 # 여기서부터 기존 코드 실행
 import cv2
@@ -53,5 +53,5 @@ _, _, restored_img = restorer.enhance(
 
 # 6. 결과 저장
 cv2.imwrite('output_result.jpg', restored_img)
-print("추론 완료: output_result.jpg 저장 완료")
+print("완료 : output_result.jpg 저장 완료")
 
